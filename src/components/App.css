@@ -1,0 +1,17 @@
+.search-logo{
+  width: 75px;
+}
+
+.form {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.form, .search-logo {
+  display: inline-block;
+}
+
+.form .field,
+input {
+  width: 100%;
+}

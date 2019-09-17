@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../logo.png';
 
 class SearchBar extends React.Component {
   state= {
@@ -19,6 +20,7 @@ class SearchBar extends React.Component {
   render() {
     return (
       <div className="search-bar ui segment">
+        <img src={logo} alt="youtube logo" className='search-logo' />
         <form onSubmit={this.onFormSubmit} className="ui  form">
           <div className="field">
             <label>Video Search</label>
